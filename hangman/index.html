@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>  
+<html> 
+<head>  
+<meta charset="utf-8">  
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link rel='stylesheet' href='style.css' type='text/css' />  
+</head>  
+
+<body>
+
+<h3> Client-side Hangman </h3>
+<p> enter a word to be used for the game</p> 
+
+
+<input name="textbox1" type="text"/>
+<input name="buttonExecute" onclick="checkword();" type="button" value="Choose Word" />
+
+<center> 
+
+<div id=placeholderb>
+</div>
+
+<p> guess a letter</p> 
+
+<input name="textbox2" type="text" maxlength="1"/>
+<input name="buttonExecute2" onclick="checkletter();" type="button" value="Choose Letter" />
+
+<p> guessed letters </p>
+<div id="wordbank">
+
+</div>
+
+<p> your lives </p>
+<div id=placeholder>
+</div>
+
+</body> 
+
+</center>
+<script src="script.js"> </script>  
+</body>  
+</html> 
+
+
+
+
+
+
